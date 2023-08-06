@@ -1,0 +1,324 @@
+
+
+
+--[["TonyHub Official"]]--
+
+
+
+-- Instances
+
+local TonyHUb = Instance.new("ScreenGui")
+local MAIN = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+
+-- Properties
+
+TonyHUb.Name = "TonyHUb"
+TonyHUb.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+TonyHUb.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+MAIN.Name = "MAIN"
+MAIN.Parent = TonyHUb
+MAIN.BackgroundColor3 = Color3.new(1, 1, 1)
+MAIN.BorderColor3 = Color3.new(0, 0, 0)
+MAIN.BorderSizePixel = 0
+MAIN.Position = UDim2.new(0.303700715, 0, 0.246212125, 0)
+MAIN.Size = UDim2.new(0, 508, 0, 50)
+MAIN.ZIndex = 10
+
+TextLabel.Parent = MAIN
+TextLabel.BackgroundColor3 = Color3.new(0.301961, 0.301961, 0.301961)
+TextLabel.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(-0.00196850393, 0, -0.0199999996, 0)
+TextLabel.Size = UDim2.new(0, 508, 0, 50)
+TextLabel.ZIndex = 10
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "Tony's Hub"
+TextLabel.TextColor3 = Color3.new(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14
+TextLabel.TextWrapped = true
+
+TextButton.Parent = MAIN
+TextButton.BackgroundColor3 = Color3.new(1, 1, 1)
+TextButton.BorderColor3 = Color3.new(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.86811024, 0, -0.0199999996, 0)
+TextButton.Size = UDim2.new(0, 66, 0, 50)
+TextButton.ZIndex = 10
+TextButton.Font = Enum.Font.Unknown
+TextButton.Text = "Close UI"
+TextButton.TextColor3 = Color3.new(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14
+TextButton.TextWrapped = true
+
+TextButton_2.Parent = MAIN
+TextButton_2.BackgroundColor3 = Color3.new(1, 1, 1)
+TextButton_2.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0, 0, -0.0199999996, 0)
+TextButton_2.Size = UDim2.new(0, 30, 0, 22)
+TextButton_2.ZIndex = 10
+TextButton_2.Font = Enum.Font.Unknown
+TextButton_2.Text = "Delete GUI"
+TextButton_2.TextColor3 = Color3.new(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14
+TextButton_2.TextWrapped = true
+
+Frame.Parent = MAIN
+Frame.BackgroundColor3 = Color3.new(0.533333, 0.25098, 0.254902)
+Frame.BorderColor3 = Color3.new(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(-0.0014173853, 0, -0.0137878414, 0)
+Frame.Size = UDim2.new(0, 508, 0, 285)
+
+UICorner.Parent = Frame
+UICorner.CornerRadius = UDim.new(0, 25)
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.new(1, 0.835294, 0.243137)
+TextButton_3.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_3.BorderSizePixel = 3
+TextButton_3.Position = UDim2.new(0.0610236228, 0, 0.221052632, 0)
+TextButton_3.Size = UDim2.new(0, 200, 0, 50)
+TextButton_3.Font = Enum.Font.Unknown
+TextButton_3.Text = "XgH's Fun GUI"
+TextButton_3.TextColor3 = Color3.new(0, 0, 0)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14
+TextButton_3.TextWrapped = true
+
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.new(1, 0.835294, 0.243137)
+TextButton_4.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_4.BorderSizePixel = 3
+TextButton_4.Position = UDim2.new(0.545275569, 0, 0.217543855, 0)
+TextButton_4.Size = UDim2.new(0, 200, 0, 50)
+TextButton_4.Font = Enum.Font.Unknown
+TextButton_4.Text = "Kings Hub"
+TextButton_4.TextColor3 = Color3.new(0, 0, 0)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14
+TextButton_4.TextWrapped = true
+
+TextButton_5.Parent = Frame
+TextButton_5.BackgroundColor3 = Color3.new(1, 0.835294, 0.243137)
+TextButton_5.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_5.BorderSizePixel = 3
+TextButton_5.Position = UDim2.new(0.545275569, 0, 0.463157892, 0)
+TextButton_5.Size = UDim2.new(0, 200, 0, 50)
+TextButton_5.Font = Enum.Font.Unknown
+TextButton_5.Text = "Script Finder"
+TextButton_5.TextColor3 = Color3.new(0, 0, 0)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14
+TextButton_5.TextWrapped = true
+
+TextButton_6.Parent = Frame
+TextButton_6.BackgroundColor3 = Color3.new(1, 0.835294, 0.243137)
+TextButton_6.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_6.BorderSizePixel = 3
+TextButton_6.Position = UDim2.new(0.0610236228, 0, 0.466666669, 0)
+TextButton_6.Size = UDim2.new(0, 200, 0, 50)
+TextButton_6.Font = Enum.Font.Unknown
+TextButton_6.Text = "BetterBypasser"
+TextButton_6.TextColor3 = Color3.new(0, 0, 0)
+TextButton_6.TextScaled = true
+TextButton_6.TextSize = 14
+TextButton_6.TextWrapped = true
+
+TextButton_7.Parent = Frame
+TextButton_7.BackgroundColor3 = Color3.new(1, 0.835294, 0.243137)
+TextButton_7.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_7.BorderSizePixel = 3
+TextButton_7.Position = UDim2.new(0.0610236228, 0, 0.705263138, 0)
+TextButton_7.Size = UDim2.new(0, 200, 0, 50)
+TextButton_7.Font = Enum.Font.Unknown
+TextButton_7.Text = "Cookie Hub"
+TextButton_7.TextColor3 = Color3.new(0, 0, 0)
+TextButton_7.TextScaled = true
+TextButton_7.TextSize = 14
+TextButton_7.TextWrapped = true
+
+TextButton_8.Parent = Frame
+TextButton_8.BackgroundColor3 = Color3.new(1, 0.835294, 0.243137)
+TextButton_8.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_8.BorderSizePixel = 3
+TextButton_8.Position = UDim2.new(0.545275569, 0, 0.705263138, 0)
+TextButton_8.Size = UDim2.new(0, 200, 0, 50)
+TextButton_8.Font = Enum.Font.Unknown
+TextButton_8.Text = "Tiger Admin lol"
+TextButton_8.TextColor3 = Color3.new(0, 0, 0)
+TextButton_8.TextScaled = true
+TextButton_8.TextSize = 14
+TextButton_8.TextWrapped = true
+
+TextButton_9.Parent = TonyHUb
+TextButton_9.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
+TextButton_9.BorderColor3 = Color3.new(0, 0, 0)
+TextButton_9.BorderSizePixel = 5
+TextButton_9.Position = UDim2.new(0, 0, 0.389118463, 0)
+TextButton_9.Size = UDim2.new(0, 111, 0, 50)
+TextButton_9.ZIndex = 1000001
+TextButton_9.Font = Enum.Font.Garamond
+TextButton_9.Text = "Open UI"
+TextButton_9.TextColor3 = Color3.new(0, 0, 0)
+TextButton_9.TextScaled = true
+TextButton_9.TextSize = 14
+TextButton_9.TextWrapped = true
+
+-- Scripts
+
+local function PIUSME_fake_script() -- MAIN.Dragify 
+	local script = Instance.new('LocalScript', MAIN)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(PIUSME_fake_script)()
+local function CTWMZP_fake_script() -- TextButton.Script 
+	local script = Instance.new('Script', TextButton)
+
+	local UI = script.Parent.Parent
+	local closeB = script.Parent
+	
+	
+	closeB.MouseButton1Click:Connect(function()
+		UI.Visible = false
+	end)
+end
+coroutine.wrap(CTWMZP_fake_script)()
+local function TPGS_fake_script() -- TextButton_2.Script 
+	local script = Instance.new('Script', TextButton_2)
+
+	local UI = script.Parent.Parent.Parent
+	local DB = script.Parent
+	
+	DB.MouseButton1Click:Connect(function()
+		UI:Destroy()
+	end)
+end
+coroutine.wrap(TPGS_fake_script)()
+local function UFVIDGZ_fake_script() -- TextButton_3.Script 
+	local script = Instance.new('Script', TextButton_3)
+
+	local XGH = script.Parent
+	
+	XGH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Lunix1747/XGHUBFixed/main/XGHHUBWORKING"))()
+	end)
+end
+coroutine.wrap(UFVIDGZ_fake_script)()
+local function TLVNLFO_fake_script() -- TextButton_4.Script 
+	local script = Instance.new('Script', TextButton_4)
+
+	local kat = script.Parent
+	
+	kat.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/King-Hub-v2/main/Loader.lua'))()
+	end)
+end
+coroutine.wrap(TLVNLFO_fake_script)()
+local function WLDT_fake_script() -- TextButton_5.Script 
+	local script = Instance.new('Script', TextButton_5)
+
+	local scf = script.Parent
+	
+	scf.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/ScriptSearcher"))()
+	end)
+end
+coroutine.wrap(WLDT_fake_script)()
+local function IJKBK_fake_script() -- TextButton_6.Script 
+	local script = Instance.new('Script', TextButton_6)
+
+	local bp = script.Parent
+	
+	bp.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://rscripts.net/raw/betterbypasser-insane-chat-bypass_6495bedb3130f.txt'))()
+	end)
+end
+coroutine.wrap(IJKBK_fake_script)()
+local function RJGD_fake_script() -- TextButton_7.Script 
+	local script = Instance.new('Script', TextButton_7)
+
+	local CH = script.Parent
+	
+	CH.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/i4mitty/Cookie-Hub/main/Cookie-Hub.lua%22"))()
+	end)
+end
+coroutine.wrap(RJGD_fake_script)()
+local function UOXDUS_fake_script() -- TextButton_8.Script 
+	local script = Instance.new('Script', TextButton_8)
+
+	local TA = script.Parent
+	
+	TA.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/Script'))() 
+	end)
+end
+coroutine.wrap(UOXDUS_fake_script)()
+local function JJSQ_fake_script() -- TextButton_9.Script 
+	local script = Instance.new('Script', TextButton_9)
+
+	local UI = script.Parent.Parent.MAIN
+	
+	local Button = script.Parent
+	
+	Button.MouseButton1Click:Connect(function()
+		UI.Visible = true
+	end)
+end
+coroutine.wrap(JJSQ_fake_script)()
