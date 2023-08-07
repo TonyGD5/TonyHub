@@ -1,8 +1,10 @@
+--[[
 
+		Gui2Lua™
+		10zOfficial
+		Version 1.0.0
 
-
---[["TonyHub Official"]]--
-
+]]
 
 
 -- Instances
@@ -20,7 +22,9 @@ local TextButton_5 = Instance.new("TextButton")
 local TextButton_6 = Instance.new("TextButton")
 local TextButton_7 = Instance.new("TextButton")
 local TextButton_8 = Instance.new("TextButton")
+local Hider = Instance.new("TextButton")
 local TextButton_9 = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
 
 -- Properties
 
@@ -167,6 +171,21 @@ TextButton_8.TextScaled = true
 TextButton_8.TextSize = 14
 TextButton_8.TextWrapped = true
 
+Hider.Name = "Hider"
+Hider.Parent = MAIN
+Hider.BackgroundColor3 = Color3.new(1, 1, 1)
+Hider.BorderColor3 = Color3.new(0, 0, 0)
+Hider.BorderSizePixel = 0
+Hider.Position = UDim2.new(0.0590551794, 0, 5.19999981, 0)
+Hider.Size = UDim2.new(0, 446, 0, 17)
+Hider.ZIndex = 10
+Hider.Font = Enum.Font.Unknown
+Hider.Text = "Hide Screen"
+Hider.TextColor3 = Color3.new(0, 0, 0)
+Hider.TextScaled = true
+Hider.TextSize = 14
+Hider.TextWrapped = true
+
 TextButton_9.Parent = TonyHUb
 TextButton_9.BackgroundColor3 = Color3.new(0.392157, 0.392157, 0.392157)
 TextButton_9.BorderColor3 = Color3.new(0, 0, 0)
@@ -181,9 +200,18 @@ TextButton_9.TextScaled = true
 TextButton_9.TextSize = 14
 TextButton_9.TextWrapped = true
 
+ImageLabel.Parent = TonyHUb
+ImageLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+ImageLabel.BorderColor3 = Color3.new(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0, 0, -0.00516528916, 0)
+ImageLabel.Size = UDim2.new(0, 1272, 0, 586)
+ImageLabel.Visible = false
+ImageLabel.Image = "rbxassetid://12781220488"
+
 -- Scripts
 
-local function PIUSME_fake_script() -- MAIN.Dragify 
+local function PAZIH_fake_script() -- MAIN.Dragify 
 	local script = Instance.new('LocalScript', MAIN)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -226,8 +254,8 @@ local function PIUSME_fake_script() -- MAIN.Dragify
 		end
 	end)
 end
-coroutine.wrap(PIUSME_fake_script)()
-local function CTWMZP_fake_script() -- TextButton.Script 
+coroutine.wrap(PAZIH_fake_script)()
+local function FGPZV_fake_script() -- TextButton.Script 
 	local script = Instance.new('Script', TextButton)
 
 	local UI = script.Parent.Parent
@@ -238,8 +266,8 @@ local function CTWMZP_fake_script() -- TextButton.Script
 		UI.Visible = false
 	end)
 end
-coroutine.wrap(CTWMZP_fake_script)()
-local function TPGS_fake_script() -- TextButton_2.Script 
+coroutine.wrap(FGPZV_fake_script)()
+local function KGJN_fake_script() -- TextButton_2.Script 
 	local script = Instance.new('Script', TextButton_2)
 
 	local UI = script.Parent.Parent.Parent
@@ -249,8 +277,8 @@ local function TPGS_fake_script() -- TextButton_2.Script
 		UI:Destroy()
 	end)
 end
-coroutine.wrap(TPGS_fake_script)()
-local function UFVIDGZ_fake_script() -- TextButton_3.Script 
+coroutine.wrap(KGJN_fake_script)()
+local function RFGXKR_fake_script() -- TextButton_3.Script 
 	local script = Instance.new('Script', TextButton_3)
 
 	local XGH = script.Parent
@@ -259,8 +287,8 @@ local function UFVIDGZ_fake_script() -- TextButton_3.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Lunix1747/XGHUBFixed/main/XGHHUBWORKING"))()
 	end)
 end
-coroutine.wrap(UFVIDGZ_fake_script)()
-local function TLVNLFO_fake_script() -- TextButton_4.Script 
+coroutine.wrap(RFGXKR_fake_script)()
+local function ZSRRYC_fake_script() -- TextButton_4.Script 
 	local script = Instance.new('Script', TextButton_4)
 
 	local kat = script.Parent
@@ -269,8 +297,8 @@ local function TLVNLFO_fake_script() -- TextButton_4.Script
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/King-Hub-v2/main/Loader.lua'))()
 	end)
 end
-coroutine.wrap(TLVNLFO_fake_script)()
-local function WLDT_fake_script() -- TextButton_5.Script 
+coroutine.wrap(ZSRRYC_fake_script)()
+local function FIGFACQ_fake_script() -- TextButton_5.Script 
 	local script = Instance.new('Script', TextButton_5)
 
 	local scf = script.Parent
@@ -279,8 +307,8 @@ local function WLDT_fake_script() -- TextButton_5.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/ScriptSearcher"))()
 	end)
 end
-coroutine.wrap(WLDT_fake_script)()
-local function IJKBK_fake_script() -- TextButton_6.Script 
+coroutine.wrap(FIGFACQ_fake_script)()
+local function RKOMOCF_fake_script() -- TextButton_6.Script 
 	local script = Instance.new('Script', TextButton_6)
 
 	local bp = script.Parent
@@ -289,8 +317,8 @@ local function IJKBK_fake_script() -- TextButton_6.Script
 		loadstring(game:HttpGet('https://rscripts.net/raw/betterbypasser-insane-chat-bypass_6495bedb3130f.txt'))()
 	end)
 end
-coroutine.wrap(IJKBK_fake_script)()
-local function RJGD_fake_script() -- TextButton_7.Script 
+coroutine.wrap(RKOMOCF_fake_script)()
+local function DERF_fake_script() -- TextButton_7.Script 
 	local script = Instance.new('Script', TextButton_7)
 
 	local CH = script.Parent
@@ -299,8 +327,8 @@ local function RJGD_fake_script() -- TextButton_7.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/i4mitty/Cookie-Hub/main/Cookie-Hub.lua%22"))()
 	end)
 end
-coroutine.wrap(RJGD_fake_script)()
-local function UOXDUS_fake_script() -- TextButton_8.Script 
+coroutine.wrap(DERF_fake_script)()
+local function AESNTS_fake_script() -- TextButton_8.Script 
 	local script = Instance.new('Script', TextButton_8)
 
 	local TA = script.Parent
@@ -309,8 +337,19 @@ local function UOXDUS_fake_script() -- TextButton_8.Script
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/Script'))() 
 	end)
 end
-coroutine.wrap(UOXDUS_fake_script)()
-local function JJSQ_fake_script() -- TextButton_9.Script 
+coroutine.wrap(AESNTS_fake_script)()
+local function PLDAL_fake_script() -- Hider.Script 
+	local script = Instance.new('Script', Hider)
+
+	local Button = script.Parent
+	local UI = Button.Parent.Parent.ImageLabel
+	
+	Button.MouseButton1Click:Connect(function()
+		UI.Visible = not UI.Visible
+	end)
+end
+coroutine.wrap(PLDAL_fake_script)()
+local function IRJF_fake_script() -- TextButton_9.Script 
 	local script = Instance.new('Script', TextButton_9)
 
 	local UI = script.Parent.Parent.MAIN
@@ -321,4 +360,39 @@ local function JJSQ_fake_script() -- TextButton_9.Script
 		UI.Visible = true
 	end)
 end
-coroutine.wrap(JJSQ_fake_script)()
+coroutine.wrap(IRJF_fake_script)()
+local function WNQIH_fake_script() -- ImageLabel.Script 
+	local script = Instance.new('Script', ImageLabel)
+
+	local Button = script.Parent.Parent.MAIN.Hider
+	
+	Button.MouseButton1Click:Connect(function()
+		print("Hiding Screen")
+	end)
+end
+coroutine.wrap(WNQIH_fake_script)()
+local function RGKNOE_fake_script() -- TonyHUb.LocalScript 
+	local script = Instance.new('LocalScript', TonyHUb)
+
+	local function callback(Text)
+		if Text == "Button1 text" then
+			print ("Answer")
+		elseif Text == ("Button2 text") then
+			print ("Answer2")
+		end
+	end
+	
+	local NotificationBindable = Instance.new("BindableFunction")
+	NotificationBindable.OnInvoke = callback
+	--
+	game.StarterGui:SetCore("SendNotification",  {
+		Title = "HUB LOADED";
+		Text = "Thank you for using Tony's Hub!";
+		Icon = "rbxassetid://10518145184";
+		Duration = 5;
+		Button1 = "ok go away now lol";
+		Button2 = "cool";
+		Callback = NotificationBindable;
+	})
+end
+coroutine.wrap(RGKNOE_fake_script)()
