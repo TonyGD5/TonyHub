@@ -205,15 +205,15 @@ ImageLabel.Parent = TonyHUb
 ImageLabel.BackgroundColor3 = Color3.new(1, 1, 1)
 ImageLabel.BorderColor3 = Color3.new(0, 0, 0)
 ImageLabel.BorderSizePixel = 0
-ImageLabel.Position = UDim2.new(-0.0317258872, 0, -0.647382915, 0)
-ImageLabel.Size = UDim2.new(0, 3231, 0, 1226)
+ImageLabel.Position = UDim2.new(-0.0713832453, 0, -0.977961481, 0)
+ImageLabel.Size = UDim2.new(0, 3324, 0, 1413)
 ImageLabel.Visible = false
 ImageLabel.ZIndex = 97
 ImageLabel.Image = "rbxassetid://12781220488"
 
 -- Scripts
 
-local function UIWMD_fake_script() -- MAIN.Dragify 
+local function RQCCHB_fake_script() -- MAIN.Dragify 
 	local script = Instance.new('LocalScript', MAIN)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -256,8 +256,8 @@ local function UIWMD_fake_script() -- MAIN.Dragify
 		end
 	end)
 end
-coroutine.wrap(UIWMD_fake_script)()
-local function PMFN_fake_script() -- TextButton.Script 
+coroutine.wrap(RQCCHB_fake_script)()
+local function WWEJM_fake_script() -- TextButton.Script 
 	local script = Instance.new('Script', TextButton)
 
 	local UI = script.Parent.Parent
@@ -268,8 +268,8 @@ local function PMFN_fake_script() -- TextButton.Script
 		UI.Visible = false
 	end)
 end
-coroutine.wrap(PMFN_fake_script)()
-local function PRPHGVH_fake_script() -- TextButton_2.Script 
+coroutine.wrap(WWEJM_fake_script)()
+local function RTKG_fake_script() -- TextButton_2.Script 
 	local script = Instance.new('Script', TextButton_2)
 
 	local UI = script.Parent.Parent.Parent
@@ -279,8 +279,8 @@ local function PRPHGVH_fake_script() -- TextButton_2.Script
 		UI:Destroy()
 	end)
 end
-coroutine.wrap(PRPHGVH_fake_script)()
-local function NRFXKSU_fake_script() -- TextButton_3.Script 
+coroutine.wrap(RTKG_fake_script)()
+local function AFNKABG_fake_script() -- TextButton_3.Script 
 	local script = Instance.new('Script', TextButton_3)
 
 	local XGH = script.Parent
@@ -289,8 +289,8 @@ local function NRFXKSU_fake_script() -- TextButton_3.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Lunix1747/XGHUBFixed/main/XGHHUBWORKING"))()
 	end)
 end
-coroutine.wrap(NRFXKSU_fake_script)()
-local function ENPE_fake_script() -- TextButton_4.Script 
+coroutine.wrap(AFNKABG_fake_script)()
+local function REENQ_fake_script() -- TextButton_4.Script 
 	local script = Instance.new('Script', TextButton_4)
 
 	local kat = script.Parent
@@ -299,8 +299,8 @@ local function ENPE_fake_script() -- TextButton_4.Script
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/King-Hub-v2/main/Loader.lua'))()
 	end)
 end
-coroutine.wrap(ENPE_fake_script)()
-local function USUTRSI_fake_script() -- TextButton_5.Script 
+coroutine.wrap(REENQ_fake_script)()
+local function BRWIVKL_fake_script() -- TextButton_5.Script 
 	local script = Instance.new('Script', TextButton_5)
 
 	local scf = script.Parent
@@ -309,8 +309,8 @@ local function USUTRSI_fake_script() -- TextButton_5.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/ScriptSearcher"))()
 	end)
 end
-coroutine.wrap(USUTRSI_fake_script)()
-local function NXOE_fake_script() -- TextButton_6.Script 
+coroutine.wrap(BRWIVKL_fake_script)()
+local function AELMC_fake_script() -- TextButton_6.Script 
 	local script = Instance.new('Script', TextButton_6)
 
 	local bp = script.Parent
@@ -319,8 +319,8 @@ local function NXOE_fake_script() -- TextButton_6.Script
 		loadstring(game:HttpGet('https://rscripts.net/raw/betterbypasser-insane-chat-bypass_6495bedb3130f.txt'))()
 	end)
 end
-coroutine.wrap(NXOE_fake_script)()
-local function ONKZ_fake_script() -- TextButton_7.Script 
+coroutine.wrap(AELMC_fake_script)()
+local function UOVOOOG_fake_script() -- TextButton_7.Script 
 	local script = Instance.new('Script', TextButton_7)
 
 	local CH = script.Parent
@@ -329,8 +329,8 @@ local function ONKZ_fake_script() -- TextButton_7.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/i4mitty/Cookie-Hub/main/Cookie-Hub.lua%22"))()
 	end)
 end
-coroutine.wrap(ONKZ_fake_script)()
-local function UIXVSM_fake_script() -- TextButton_8.Script 
+coroutine.wrap(UOVOOOG_fake_script)()
+local function MGIMG_fake_script() -- TextButton_8.Script 
 	local script = Instance.new('Script', TextButton_8)
 
 	local TA = script.Parent
@@ -339,8 +339,8 @@ local function UIXVSM_fake_script() -- TextButton_8.Script
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/Script'))() 
 	end)
 end
-coroutine.wrap(UIXVSM_fake_script)()
-local function VTPCN_fake_script() -- Hider.Script 
+coroutine.wrap(MGIMG_fake_script)()
+local function TCLMPDH_fake_script() -- Hider.Script 
 	local script = Instance.new('Script', Hider)
 
 	local Button = script.Parent
@@ -350,8 +350,8 @@ local function VTPCN_fake_script() -- Hider.Script
 		UI.Visible = not UI.Visible
 	end)
 end
-coroutine.wrap(VTPCN_fake_script)()
-local function BDQBCU_fake_script() -- TextButton_9.Script 
+coroutine.wrap(TCLMPDH_fake_script)()
+local function DIILXBD_fake_script() -- TextButton_9.Script 
 	local script = Instance.new('Script', TextButton_9)
 
 	local UI = script.Parent.Parent.MAIN
@@ -362,8 +362,8 @@ local function BDQBCU_fake_script() -- TextButton_9.Script
 		UI.Visible = true
 	end)
 end
-coroutine.wrap(BDQBCU_fake_script)()
-local function PBIJKGK_fake_script() -- ImageLabel.Script 
+coroutine.wrap(DIILXBD_fake_script)()
+local function NVQMSZS_fake_script() -- ImageLabel.Script 
 	local script = Instance.new('Script', ImageLabel)
 
 	local Button = script.Parent.Parent.MAIN.Hider
@@ -372,8 +372,8 @@ local function PBIJKGK_fake_script() -- ImageLabel.Script
 		print("Hiding Screen")
 	end)
 end
-coroutine.wrap(PBIJKGK_fake_script)()
-local function OHWO_fake_script() -- TonyHUb.LocalScript 
+coroutine.wrap(NVQMSZS_fake_script)()
+local function LFQRN_fake_script() -- TonyHUb.LocalScript 
 	local script = Instance.new('LocalScript', TonyHUb)
 
 	local function callback(Text)
@@ -397,4 +397,4 @@ local function OHWO_fake_script() -- TonyHUb.LocalScript
 		Callback = NotificationBindable;
 	})
 end
-coroutine.wrap(OHWO_fake_script)()
+coroutine.wrap(LFQRN_fake_script)()
