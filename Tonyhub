@@ -1,8 +1,8 @@
 --[[
 
-		Gui2Lua™
-		10zOfficial
-		Version 1.0.0
+	    [Tony's Hub]
+	 [IN COLAB WITH XGH]
+	   [More to come!]
 
 ]]
 
@@ -39,7 +39,7 @@ MAIN.BorderColor3 = Color3.new(0, 0, 0)
 MAIN.BorderSizePixel = 0
 MAIN.Position = UDim2.new(0.303700715, 0, 0.246212125, 0)
 MAIN.Size = UDim2.new(0, 508, 0, 50)
-MAIN.ZIndex = 10
+MAIN.ZIndex = 100
 
 TextLabel.Parent = MAIN
 TextLabel.BackgroundColor3 = Color3.new(0.301961, 0.301961, 0.301961)
@@ -47,7 +47,7 @@ TextLabel.BorderColor3 = Color3.new(0, 0, 0)
 TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(-0.00196850393, 0, -0.0199999996, 0)
 TextLabel.Size = UDim2.new(0, 508, 0, 50)
-TextLabel.ZIndex = 10
+TextLabel.ZIndex = 100
 TextLabel.Font = Enum.Font.Unknown
 TextLabel.Text = "Tony's Hub"
 TextLabel.TextColor3 = Color3.new(0, 0, 0)
@@ -61,7 +61,7 @@ TextButton.BorderColor3 = Color3.new(0, 0, 0)
 TextButton.BorderSizePixel = 0
 TextButton.Position = UDim2.new(0.86811024, 0, -0.0199999996, 0)
 TextButton.Size = UDim2.new(0, 66, 0, 50)
-TextButton.ZIndex = 10
+TextButton.ZIndex = 100
 TextButton.Font = Enum.Font.Unknown
 TextButton.Text = "Close UI"
 TextButton.TextColor3 = Color3.new(0, 0, 0)
@@ -75,7 +75,7 @@ TextButton_2.BorderColor3 = Color3.new(0, 0, 0)
 TextButton_2.BorderSizePixel = 0
 TextButton_2.Position = UDim2.new(0, 0, -0.0199999996, 0)
 TextButton_2.Size = UDim2.new(0, 30, 0, 22)
-TextButton_2.ZIndex = 10
+TextButton_2.ZIndex = 100
 TextButton_2.Font = Enum.Font.Unknown
 TextButton_2.Text = "Delete GUI"
 TextButton_2.TextColor3 = Color3.new(0, 0, 0)
@@ -89,6 +89,7 @@ Frame.BorderColor3 = Color3.new(0, 0, 0)
 Frame.BorderSizePixel = 0
 Frame.Position = UDim2.new(-0.0014173853, 0, -0.0137878414, 0)
 Frame.Size = UDim2.new(0, 508, 0, 285)
+Frame.ZIndex = 99
 
 UICorner.Parent = Frame
 UICorner.CornerRadius = UDim.new(0, 25)
@@ -178,7 +179,7 @@ Hider.BorderColor3 = Color3.new(0, 0, 0)
 Hider.BorderSizePixel = 0
 Hider.Position = UDim2.new(0.0590551794, 0, 5.19999981, 0)
 Hider.Size = UDim2.new(0, 446, 0, 17)
-Hider.ZIndex = 10
+Hider.ZIndex = 100
 Hider.Font = Enum.Font.Unknown
 Hider.Text = "Hide Screen"
 Hider.TextColor3 = Color3.new(0, 0, 0)
@@ -204,14 +205,15 @@ ImageLabel.Parent = TonyHUb
 ImageLabel.BackgroundColor3 = Color3.new(1, 1, 1)
 ImageLabel.BorderColor3 = Color3.new(0, 0, 0)
 ImageLabel.BorderSizePixel = 0
-ImageLabel.Position = UDim2.new(0, 0, -0.00516528916, 0)
-ImageLabel.Size = UDim2.new(0, 1272, 0, 586)
+ImageLabel.Position = UDim2.new(-0.0317258872, 0, -0.647382915, 0)
+ImageLabel.Size = UDim2.new(0, 3231, 0, 1226)
 ImageLabel.Visible = false
+ImageLabel.ZIndex = 97
 ImageLabel.Image = "rbxassetid://12781220488"
 
 -- Scripts
 
-local function PAZIH_fake_script() -- MAIN.Dragify 
+local function UIWMD_fake_script() -- MAIN.Dragify 
 	local script = Instance.new('LocalScript', MAIN)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -254,8 +256,8 @@ local function PAZIH_fake_script() -- MAIN.Dragify
 		end
 	end)
 end
-coroutine.wrap(PAZIH_fake_script)()
-local function FGPZV_fake_script() -- TextButton.Script 
+coroutine.wrap(UIWMD_fake_script)()
+local function PMFN_fake_script() -- TextButton.Script 
 	local script = Instance.new('Script', TextButton)
 
 	local UI = script.Parent.Parent
@@ -266,8 +268,8 @@ local function FGPZV_fake_script() -- TextButton.Script
 		UI.Visible = false
 	end)
 end
-coroutine.wrap(FGPZV_fake_script)()
-local function KGJN_fake_script() -- TextButton_2.Script 
+coroutine.wrap(PMFN_fake_script)()
+local function PRPHGVH_fake_script() -- TextButton_2.Script 
 	local script = Instance.new('Script', TextButton_2)
 
 	local UI = script.Parent.Parent.Parent
@@ -277,8 +279,8 @@ local function KGJN_fake_script() -- TextButton_2.Script
 		UI:Destroy()
 	end)
 end
-coroutine.wrap(KGJN_fake_script)()
-local function RFGXKR_fake_script() -- TextButton_3.Script 
+coroutine.wrap(PRPHGVH_fake_script)()
+local function NRFXKSU_fake_script() -- TextButton_3.Script 
 	local script = Instance.new('Script', TextButton_3)
 
 	local XGH = script.Parent
@@ -287,8 +289,8 @@ local function RFGXKR_fake_script() -- TextButton_3.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Lunix1747/XGHUBFixed/main/XGHHUBWORKING"))()
 	end)
 end
-coroutine.wrap(RFGXKR_fake_script)()
-local function ZSRRYC_fake_script() -- TextButton_4.Script 
+coroutine.wrap(NRFXKSU_fake_script)()
+local function ENPE_fake_script() -- TextButton_4.Script 
 	local script = Instance.new('Script', TextButton_4)
 
 	local kat = script.Parent
@@ -297,8 +299,8 @@ local function ZSRRYC_fake_script() -- TextButton_4.Script
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/King-Hub-v2/main/Loader.lua'))()
 	end)
 end
-coroutine.wrap(ZSRRYC_fake_script)()
-local function FIGFACQ_fake_script() -- TextButton_5.Script 
+coroutine.wrap(ENPE_fake_script)()
+local function USUTRSI_fake_script() -- TextButton_5.Script 
 	local script = Instance.new('Script', TextButton_5)
 
 	local scf = script.Parent
@@ -307,8 +309,8 @@ local function FIGFACQ_fake_script() -- TextButton_5.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/ScriptSearcher"))()
 	end)
 end
-coroutine.wrap(FIGFACQ_fake_script)()
-local function RKOMOCF_fake_script() -- TextButton_6.Script 
+coroutine.wrap(USUTRSI_fake_script)()
+local function NXOE_fake_script() -- TextButton_6.Script 
 	local script = Instance.new('Script', TextButton_6)
 
 	local bp = script.Parent
@@ -317,8 +319,8 @@ local function RKOMOCF_fake_script() -- TextButton_6.Script
 		loadstring(game:HttpGet('https://rscripts.net/raw/betterbypasser-insane-chat-bypass_6495bedb3130f.txt'))()
 	end)
 end
-coroutine.wrap(RKOMOCF_fake_script)()
-local function DERF_fake_script() -- TextButton_7.Script 
+coroutine.wrap(NXOE_fake_script)()
+local function ONKZ_fake_script() -- TextButton_7.Script 
 	local script = Instance.new('Script', TextButton_7)
 
 	local CH = script.Parent
@@ -327,8 +329,8 @@ local function DERF_fake_script() -- TextButton_7.Script
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/i4mitty/Cookie-Hub/main/Cookie-Hub.lua%22"))()
 	end)
 end
-coroutine.wrap(DERF_fake_script)()
-local function AESNTS_fake_script() -- TextButton_8.Script 
+coroutine.wrap(ONKZ_fake_script)()
+local function UIXVSM_fake_script() -- TextButton_8.Script 
 	local script = Instance.new('Script', TextButton_8)
 
 	local TA = script.Parent
@@ -337,8 +339,8 @@ local function AESNTS_fake_script() -- TextButton_8.Script
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/H17S32/Tiger_Admin/main/Script'))() 
 	end)
 end
-coroutine.wrap(AESNTS_fake_script)()
-local function PLDAL_fake_script() -- Hider.Script 
+coroutine.wrap(UIXVSM_fake_script)()
+local function VTPCN_fake_script() -- Hider.Script 
 	local script = Instance.new('Script', Hider)
 
 	local Button = script.Parent
@@ -348,8 +350,8 @@ local function PLDAL_fake_script() -- Hider.Script
 		UI.Visible = not UI.Visible
 	end)
 end
-coroutine.wrap(PLDAL_fake_script)()
-local function IRJF_fake_script() -- TextButton_9.Script 
+coroutine.wrap(VTPCN_fake_script)()
+local function BDQBCU_fake_script() -- TextButton_9.Script 
 	local script = Instance.new('Script', TextButton_9)
 
 	local UI = script.Parent.Parent.MAIN
@@ -360,8 +362,8 @@ local function IRJF_fake_script() -- TextButton_9.Script
 		UI.Visible = true
 	end)
 end
-coroutine.wrap(IRJF_fake_script)()
-local function WNQIH_fake_script() -- ImageLabel.Script 
+coroutine.wrap(BDQBCU_fake_script)()
+local function PBIJKGK_fake_script() -- ImageLabel.Script 
 	local script = Instance.new('Script', ImageLabel)
 
 	local Button = script.Parent.Parent.MAIN.Hider
@@ -370,8 +372,8 @@ local function WNQIH_fake_script() -- ImageLabel.Script
 		print("Hiding Screen")
 	end)
 end
-coroutine.wrap(WNQIH_fake_script)()
-local function RGKNOE_fake_script() -- TonyHUb.LocalScript 
+coroutine.wrap(PBIJKGK_fake_script)()
+local function OHWO_fake_script() -- TonyHUb.LocalScript 
 	local script = Instance.new('LocalScript', TonyHUb)
 
 	local function callback(Text)
@@ -395,4 +397,4 @@ local function RGKNOE_fake_script() -- TonyHUb.LocalScript
 		Callback = NotificationBindable;
 	})
 end
-coroutine.wrap(RGKNOE_fake_script)()
+coroutine.wrap(OHWO_fake_script)()
